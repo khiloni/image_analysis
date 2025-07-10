@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 
 # Model download link (Google Drive)
-MODEL_URL = "https://drive.google.com/uc?export=download&id=1p9pqC-Ba4aKdNcQploHjnaCVip5J07qe"
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1GspKyldumkNt3O3a8ZIl0hJpyqBvtLf7"
 MODEL_PATH = "Modelenv.v1.h5"
 
 # Download model if not present
@@ -49,3 +49,4 @@ if uploaded_file is not None:
 
     st.success(f"Prediction: **{predicted_class}**")
     st.info(f"Confidence: **{confidence * 100:.2f}%**")
+
