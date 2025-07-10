@@ -6,8 +6,9 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 
-# Google Drive model link
-DRIVE_FILE_ID = "1GspKyldumkNt3O3a8ZIl0hJpyqBvtLf7"
+
+# Model download link (Google Drive)
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1p9pqC-Ba4aKdNcQploHjnaCVip5J07qe"
 MODEL_PATH = "Modelenv.v1.h5"
 
 # Download and load model
