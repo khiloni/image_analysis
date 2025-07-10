@@ -1,5 +1,6 @@
-streamlit
-tensorflow-cpu
-numpy
-pillow
-gdown
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+Pillow==10.3.0
+plotly==5.21.0
+requests
