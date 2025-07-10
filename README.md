@@ -1,1 +1,5 @@
-# image_analysis
+streamlit
+tensorflow-cpu
+numpy
+pillow
+requests
