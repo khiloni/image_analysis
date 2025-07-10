@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import Image
 
 # Model download link (Google Drive)
-MODEL_URL = "https://drive.google.com/uc?export=download&id=1GspKyldumkNt3O3a8ZIl0hJpyqBvtLf7"
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1GspKyldumkNt3O3a8ZIl0hJpyqBvtLf77"
 MODEL_PATH = "Modelenv.v1.h5"
 
 # Download model if not present
